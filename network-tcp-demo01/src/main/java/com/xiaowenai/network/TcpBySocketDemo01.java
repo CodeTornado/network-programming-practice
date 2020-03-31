@@ -6,15 +6,14 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * Created with IntelliJ IDEA.
- * Description: 利用java网络连接套接字工具类，实现Tcp方式数据传输.启动多个套接字客户端不断向一个套接字服务端发送数据
+ * Description: 利用socket实现Tcp数据传输.启动多个套接字客户端不断向一个套接字服务端发送数据
  *
  * @version 1.0
  * @author: Shimmer
  * @date: 2020-03-31
  * @Time: 17:55
  */
-public class TcpDemo01 {
+public class TcpBySocketDemo01 {
     public static void main(String[] args) {
         System.out.println("开始演示");
         System.out.println("启动Tcp服务端");
