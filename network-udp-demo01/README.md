@@ -114,7 +114,6 @@ public class UdpTransmissionByDatagramSocketDemo01 {
 }
 ```
 
-2
 
 测试 Ucp 方式数据传输
 
