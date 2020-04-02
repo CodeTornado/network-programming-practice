@@ -22,7 +22,7 @@ class UdpSender implements Runnable{
                //DatagramSocket发送数据报包
                //关闭资源
            }
-       }catch(e){
+       }catch(Exception e){
          
        }finally{
          //关闭资源
@@ -44,7 +44,7 @@ class UdpAddressee implements Runnable{
                //接收完毕
                //关闭资源
            }
-       }catch(e){
+       }catch(Exception e){
          
        }finally{
          //关闭资源
