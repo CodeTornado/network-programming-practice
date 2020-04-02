@@ -1,4 +1,4 @@
-package com.xiaowenai.network;
+package com.xiaowenai.network.tcpdemo;
 
 import java.io.*;
 import java.net.InetAddress;
